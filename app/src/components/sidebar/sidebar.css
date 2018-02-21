@@ -1,0 +1,27 @@
+.sidebar{
+  background-color: rgba(2, 2, 3, 0.733);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:70px;
+  padding: 20px;
+  color: white;
+  height: 100vh;
+  font-size: 50px;
+  font-weight: bold;
+}
+.book-logo{
+  position: fixed;
+  top: 0;
+  left: 110px;
+  border-radius: 0 0 10px 0;
+}
+.sidebar-icons{
+  position: fixed;
+  bottom: 20px;
+}
+.sidebar-icons img{
+  width: 40px;
+  display: block;
+  padding: 15px 10px;
+}
