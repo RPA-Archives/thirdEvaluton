@@ -9,6 +9,9 @@
   font-weight: bold;
   flex: 1;
   justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: 35%;
 }
 @media screen and (max-width: 330px) {
   .reload-box {

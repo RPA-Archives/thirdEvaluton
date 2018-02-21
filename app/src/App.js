@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Sidebar from './components/sidebar/sidebar.js';
-import Reload from './components/reload/reload.js';
-import Books from './components/books/books.js';
+import Sidebar from './components/sidebar/sidebar';
+import Reload from './components/reload/reload';
+import Books from './components/books/books';
 import './App.css';
 
 class App extends Component {
