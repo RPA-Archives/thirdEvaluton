@@ -13,10 +13,11 @@ class Books extends Component {
             {this.props.value.author.name}
           </div>
           <div className="books-author-books">
-            <Book />
-            <Book />
-            <Book />
-            <Book />
+            <Book value={this.props.value.author.books[0]} />
+            <Book value={this.props.value.author.books[1]} />
+            <Book value={this.props.value.author.books[2]} />
+            <Book value={this.props.value.author.books[3]} />
+            {/* map books array so that book compoment can be called for each book */}
           </div>
         </div>
       </div>
@@ -58,20 +59,11 @@ Books.defaultProps = {
     },
   },
 };
-// Books.propTypes = {
-//   value: PropTypes.shape({
-//     name: PropTypes.string,
-//     author: PropTypes.string,
-//     rating: PropTypes.number,
-//   }),
-
-// };
-
-// const input = this.props.value;
-//     const allNotes = input.map(note =>
-//       <DisplayNote value={note} key={note.id} editNote={this.props.editNote} />);
-//     return (
-//       <section className="gray-back padding10">
-//         { allNotes }
-//       </section>
-//     );
+Books.propTypes = {
+  value: PropTypes.shape({
+    author: PropTypes.shape({
+      name: PropTypes.string,
+      books: PropTypes.array,
+    }),
+  }),
+};
