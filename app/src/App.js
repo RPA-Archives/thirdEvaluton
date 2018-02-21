@@ -22,7 +22,7 @@ class App extends Component {
     }
     return (
       <div>
-        {/* <Sidebar /> */}
+        <Sidebar />
         <Books />
       </div>
     );

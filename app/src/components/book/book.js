@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './book.css';
 import PropTypes from 'prop-types';
+import './book.css';
 
 class Book extends Component {
   render() {
