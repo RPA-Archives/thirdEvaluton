@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import Sidebar from './components/sidebar/sidebar.js';
+import Reload from './components/reload/reload.js';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <Sidebar />
+      <div>
+        <Sidebar />
+        <Reload message1="Oops! No books found!" message2="Import them now ?" />
+      </div>
     );
   }
 }

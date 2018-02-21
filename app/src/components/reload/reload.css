@@ -1,0 +1,33 @@
+.reload-box {
+  background-color: rgb(255, 94, 0);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 60px 50px;
+  margin: auto;
+  font-size: 30px;
+  width: 30%;
+  font-weight: bold;
+  flex: 1;
+  justify-content: center;
+}
+@media screen and (max-width: 330px) {
+  .reload-box {
+    width: 80%;
+  }
+}
+.reload-error {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.reload-error-message {
+  margin: 40px;
+  text-align: center;
+}
+.reload-logo {
+  width: 60px;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
